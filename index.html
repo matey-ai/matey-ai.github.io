@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Matey AI</title>
+</head>
+<body>
+    <div class="blue">
+        <img src="./images/logo.svg">
+    </div>
+    <div class="content shapedividers_com-1220">
+        <!-- <p>This is some text on a curved background.</p> -->
+      </div>
+    <div class="name">
+        <p>Matey AI</p>
+        <p>Your Personalized Adventures</p>
+        <p>Matey.AI empowers your creativity and individuality by personalizing adventures for you. Tell your story with our immersive and engaging chatbots.</p>
+        <button onclick="myFunction()">Get in touch</button>
+        <div class="prompt">Our email address is copied.</div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+    const prompt = document.querySelector('.prompt');
+
+   // Copy the text inside the text field
+  navigator.clipboard.writeText("jwwei2@student.unimelb.edu.au");
+        prompt.style.display = "block";
+  // Alert the copied text
+//   alert("Copied the text: ");
+}
+</script>
+</html>

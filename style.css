@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    background-color: #36349c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+}
+
+img {
+    width: 7rem;
+    position: absolute;
+    left: 5rem;
+    top: 3rem;
+}
+
+.blue {
+    width: 600px;
+    background-color: #0D0327;
+    position: relative;
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.shapedividers_com-1220 {
+    overflow: hidden;
+    position: relative;
+}
+
+.shapedividers_com-1220::before {
+    content: '';
+    font-family: 'shape divider from ShapeDividers.com';
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    bottom: -0.1vw;
+    left: -0.1vw;
+    right: -0.1vw;
+    top: -0.1vw;
+    background-size: 1200px 149%;
+    background-position: 0% 50%;
+    background-image: url('data:image/svg+xml;charset=utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0.1 0 2.17 35.28" preserveAspectRatio="none"><path d="M1.85 35.28c-.83-2.57-.3-7.68-.42-11.8-.12-4.1-.61-6.85-.28-9.57.33-2.73 1.17-5.61 1-8.61-.19-3-.82-4.73-.84-5.3H.1v35.28z" fill="%230d0327"/></svg>');
+}
+
+.name {
+    position: absolute;
+    top: 12rem;
+    left: 5rem;
+    color: white;
+    width: max(50%,400px);
+}
+
+.name p:first-child {
+    font-size: 64px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.name p:nth-child(2) {
+    margin-top: 0.3em;
+}
+
+.name p:nth-child(3) {
+    font-size: 24px;
+}
+
+button {
+    margin-top: 1em;
+    position: absolute;
+    /* bottom: 20rem;
+    left: 5rem; */
+    background: linear-gradient(to right, #e13466, #f5d446);
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 0.5em 2em;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.prompt {
+    position: relative;
+    font-size: 16px;
+    top: 4.5rem;
+    display: none;
+}
