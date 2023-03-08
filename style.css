@@ -16,7 +16,7 @@ img {
 }
 
 .blue {
-    width: 600px;
+    width: 650px;
     background-color: #0D0327;
     position: relative;
 }
@@ -74,6 +74,7 @@ img {
 button {
     margin-top: 1em;
     position: absolute;
+    text-decoration: none;
     /* bottom: 20rem;
     left: 5rem; */
     background: linear-gradient(to right, #e13466, #f5d446);
